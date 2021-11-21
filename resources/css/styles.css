@@ -32,7 +32,8 @@ a {
 #copyright {
     text-align: right;
     color: gray;
-    font-size: 2rem;
+    font-size: 1.4rem;
+    margin-top: 5%;
 }
 
 img, video {
@@ -48,5 +49,41 @@ img, video {
 #little-img {
     width: 15%;
     height: auto;
+}
+
+@media only screen and (min-width: 480px) {
+    #big-img {
+        width: 80%;
+        height: auto;
+    }
+    
+    #little-img {
+        width: 10%;
+        height: auto;
+    }
+
+    #copyright {
+        text-align: right;
+        color: gray;
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #big-img {
+        width: 60%;
+        height: auto;
+    }
+    
+    #little-img {
+        width: 5%;
+        height: auto;
+    }
+
+    #copyright {
+        text-align: right;
+        color: gray;
+        font-size: 2rem;
+    }
 }
 
